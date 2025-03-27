@@ -1,4 +1,13 @@
-"scripts": {
-  "start": "node server.js",  // ou o comando para iniciar seu app no servidor
-  "build": "echo 'Sem comando de build necessário para este projeto'"
+{
+  "name": "teencoin",
+  "version": "1.0.0",
+  "description": "Projeto Teencoin",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Nenhum comando de build necessário'"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
