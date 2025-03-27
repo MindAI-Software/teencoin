@@ -2,9 +2,6 @@
   "expo": {
     "name": "teencoin",
     "slug": "teencoin",
-    "platforms": ["ios", "android", "web"],
-    "web": {
-      "bundler": "metro"
-    }
+    "platforms": ["ios", "android"]
   }
 }
