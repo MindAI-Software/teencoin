@@ -1,13 +1,6 @@
 {
-  "name": "teencoin",
-  "version": "1.0.0",
-  "description": "Projeto Teencoin",
-  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "npm run build"
-  },
-  "dependencies": {
-    "express": "^4.17.1"
+    "start": "node server.js",  // ou outro comando para iniciar o back-end
+    "build": "react-scripts build"  // comando para gerar os arquivos de build
   }
 }
