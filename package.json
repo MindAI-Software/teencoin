@@ -1,4 +1,4 @@
 "scripts": {
-  "start": "node server.js",  // ou o comando para iniciar seu app no servidor
-  "build": "react-scripts build"  // para React, ou outro build para o seu framework
+  "start": "node server.js",  
+  "build": "react-scripts build"  
 }
