@@ -1,5 +1,4 @@
-{
-  "scripts": {
-    "start": "node index.js"
-  }
+"scripts": {
+  "start": "node server.js",  // ou o comando para iniciar seu app no servidor
+  "build": "echo 'Sem comando de build necessário para este projeto'"
 }
