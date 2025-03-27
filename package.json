@@ -2,8 +2,8 @@
   "name": "teencoin",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server.js",  // Para back-end, se necessário
-    "build": "react-scripts build"  // Para criar o build do front-end
+    "start": "node server.js",  
+    "build": "react-scripts build" 
   },
   "dependencies": {
     "react": "^17.0.0",
