@@ -1,4 +1,4 @@
 "scripts": {
-  "start": "node server.js",  // ou outro comando para rodar seu back-end
-  "build": "react-scripts build"  // Para React
+  "start": "node server.js", 
+  "build": "react-scripts build" 
 }
