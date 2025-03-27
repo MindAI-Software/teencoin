@@ -1,4 +1,13 @@
-"scripts": {
-  "start": "node server.js",  
-  "build": "react-scripts build"  
+{
+  "name": "teencoin",
+  "version": "1.0.0",
+  "description": "Projeto Teencoin",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "npm run build"  // Adicione um comando build, se necessário
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
