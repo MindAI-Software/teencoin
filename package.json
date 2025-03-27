@@ -1,13 +1,4 @@
-{
-  "name": "teencoin",
-  "version": "1.0.0",
-  "description": "Projeto Teencoin",
-  "main": "index.js",
-  "scripts": {
-    "start": "node server.js",
-    "build": "echo 'Sem comando de build necessário'"
-  },
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+"scripts": {
+  "start": "node server.js",  // ou o comando para iniciar seu app no servidor
+  "build": "react-scripts build"  // para React, ou outro build para o seu framework
 }
