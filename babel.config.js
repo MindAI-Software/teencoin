@@ -3,12 +3,15 @@ module.exports = function(api) {
   return {
     presets: [
       'babel-preset-expo',
-      ['@babel/preset-env', { targets: { node: 'current' } }],
-      '@babel/preset-react'
+      ['@babel/preset-env', { 
+        targets: { 
+          node: '18' // Usar Node.js 18 como target
+        }
+      }]
     ],
     plugins: [
       '@babel/plugin-proposal-optional-chaining',
-      '@babel/plugin-transform-react-jsx'
+      'react-native-reanimated/plugin'
     ]
   };
 };
