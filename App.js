@@ -78,7 +78,6 @@ const COLORS = {
   darkText: "#333333",
   green: "#4CAF50",
   red: "#ff4444",
-  yellow: "#e6ac13",
 };
 
 // -------------------------
@@ -172,9 +171,11 @@ function LoginScreen({ navigation, appData, updateAppData }) {
   }, []);
 
   return (
-  <View style={[styles.backgroundImage, { backgroundColor: COLORS.yellow }]}>
-     
-    <View style={styles.loginContainer}>
+    <ImageBackground
+      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      style={styles.backgroundImage}
+    >
+      <View style={styles.loginContainer}>
         <Animated.View style={[styles.loginCard, { opacity: fadeAnim, transform: [{ translateY: slideAnim }] }]}>
           <Text style={styles.loginTitle}>{isRegistering ? "Crie sua Conta" : "Bem-vindo"}</Text>
           {isRegistering ? (
@@ -282,8 +283,10 @@ function DashboardScreen({ navigation, appData, updateAppData }) {
   }
 
   return (
-   <View style={[styles.backgroundImage, { backgroundColor: COLORS.yellow }]}>
-    
+    <ImageBackground
+      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      style={styles.backgroundImage}
+    >
       <View style={styles.dashboardContainer}>
         <Animated.ScrollView
           contentContainerStyle={styles.dashboardContent}
@@ -348,7 +351,10 @@ function StoreScreen({ navigation, appData }) {
   );
 
   return (
-   <View style={[styles.backgroundImage, { backgroundColor: COLORS.yellow }]}>
+    <ImageBackground
+      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      style={styles.backgroundImage}
+    >
       <View style={styles.storeContainer}>
         <FlatList
           data={appData.products}
@@ -414,7 +420,10 @@ function ProductDetailScreen({ route, navigation, appData, updateAppData }) {
   };
 
   return (
-  <View style={[styles.backgroundImage, { backgroundColor: COLORS.yellow }]}>
+    <ImageBackground
+      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      style={styles.backgroundImage}
+    >
       <View style={styles.detailContainer}>
         <Image
           source={product.photo ? { uri: product.photo } : require("./assets/default.png")}
@@ -436,7 +445,10 @@ function ProductDetailScreen({ route, navigation, appData, updateAppData }) {
 // -------------------------
 function UserListScreen({ navigation, appData }) {
   return (
-  <View style={[styles.backgroundImage, { backgroundColor: COLORS.yellow }]}>
+    <ImageBackground
+      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      style={styles.backgroundImage}
+    >
       <View style={styles.userListContainer}>
         <FlatList
           data={appData.users}
@@ -510,7 +522,10 @@ function UserDetailScreen({ route, navigation, appData, updateAppData }) {
   };
 
   return (
-   <View style={[styles.backgroundImage, { backgroundColor: COLORS.yellow }]}>
+    <ImageBackground
+      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      style={styles.backgroundImage}
+    >
       <View style={styles.userDetailContainer}>
         <Image source={{ uri: user.photo }} style={styles.userDetailPhoto} />
         <Text style={styles.userDetailName}>{user.username}</Text>
@@ -566,7 +581,10 @@ function SettingsScreen({ navigation, appData, updateAppData }) {
   };
 
   return (
-   <View style={[styles.backgroundImage, { backgroundColor: COLORS.yellow }]}>
+    <ImageBackground
+      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      style={styles.backgroundImage}
+    >
       <View style={styles.settingsContainer}>
         <Animated.ScrollView contentContainerStyle={styles.settingsContent}>
           <Text style={styles.settingsTitle}>Configurações</Text>
@@ -666,7 +684,10 @@ function ManageProductsScreen({ navigation, appData, updateAppData }) {
   );
 
   return (
-   <View style={[styles.backgroundImage, { backgroundColor: COLORS.yellow }]}>
+    <ImageBackground
+      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      style={styles.backgroundImage}
+    >
       <View style={styles.manageProductsContainer}>
         <FlatList
           data={appData.products}
@@ -734,7 +755,10 @@ function AddProductScreen({ navigation, appData, updateAppData }) {
   };
 
   return (
-   <View style={[styles.backgroundImage, { backgroundColor: COLORS.yellow }]}>
+    <ImageBackground
+      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      style={styles.backgroundImage}
+    >
       <View style={styles.addProductContainer}>
         <Text style={styles.addProductTitle}>Adicionar Produto</Text>
         <TextInput
@@ -816,7 +840,10 @@ function EditProductScreen({ route, navigation, appData, updateAppData }) {
   };
 
   return (
-    <View style={[styles.backgroundImage, { backgroundColor: COLORS.yellow }]}>
+    <ImageBackground
+      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      style={styles.backgroundImage}
+    >
       <View style={styles.editProductContainer}>
         <Text style={styles.editProductTitle}>Editar Produto</Text>
         <TextInput
@@ -902,7 +929,10 @@ function PurchaseHistoryScreen({ navigation, appData }) {
   };
 
   return (
-    <View style={[styles.backgroundImage, { backgroundColor: COLORS.yellow }]}>
+    <ImageBackground
+      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      style={styles.backgroundImage}
+    >
       <View style={styles.purchaseHistoryContainer}>
         <FlatList
           data={appData.purchases}
