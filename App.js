@@ -216,7 +216,7 @@ function LoginScreen({ navigation, appData, updateAppData }) {
 // DashboardScreen
 // -------------------------
 function DashboardScreen({ navigation, appData, updateAppData }) {
-const currentUser = (appData && appData.currentUser) ? appData.currentUser : {};
+ const currentUser = (appData && appData.currentUser) ? appData.currentUser : {};
 
 
 
