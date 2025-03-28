@@ -216,7 +216,8 @@ function LoginScreen({ navigation, appData, updateAppData }) {
 // DashboardScreen
 // -------------------------
 function DashboardScreen({ navigation, appData, updateAppData }) {
-  const { currentUser } = appData ? appData : {};
+  const { currentUser } = appData || {};
+
 
 
   const fadeAnim = useRef(new Animated.Value(0)).current;
@@ -382,7 +383,8 @@ function StoreScreen({ navigation, appData }) {
 // -------------------------
 function ProductDetailScreen({ route, navigation, appData, updateAppData }) {
   const { product } = route.params;
- const { currentUser } = appData ? appData : {};
+ const { currentUser } = appData || {};
+
 
 
 
