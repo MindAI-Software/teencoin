@@ -381,7 +381,8 @@ function StoreScreen({ navigation, appData }) {
 // -------------------------
 function ProductDetailScreen({ route, navigation, appData, updateAppData }) {
   const { product } = route.params;
-  const { currentUser } = appData;
+ const { currentUser } = appData || {};
+
 
   const handleBuy = async () => {
     if (product.quantity <= 0) {
