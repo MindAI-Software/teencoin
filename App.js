@@ -172,7 +172,7 @@ function LoginScreen({ navigation, appData, updateAppData }) {
 
   return (
     <ImageBackground
-      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      source={require("Post novo fundo de story de instagram branco.png")}
       style={styles.backgroundImage}
     >
       <View style={styles.loginContainer}>
@@ -284,7 +284,7 @@ function DashboardScreen({ navigation, appData, updateAppData }) {
 
   return (
     <ImageBackground
-      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      source={require("Post novo fundo de story de instagram branco.png")}
       style={styles.backgroundImage}
     >
       <View style={styles.dashboardContainer}>
@@ -352,7 +352,7 @@ function StoreScreen({ navigation, appData }) {
 
   return (
     <ImageBackground
-      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      source={require("Post novo fundo de story de instagram branco.png")}
       style={styles.backgroundImage}
     >
       <View style={styles.storeContainer}>
@@ -421,7 +421,7 @@ function ProductDetailScreen({ route, navigation, appData, updateAppData }) {
 
   return (
     <ImageBackground
-      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      source={require("Post novo fundo de story de instagram branco.png")}
       style={styles.backgroundImage}
     >
       <View style={styles.detailContainer}>
@@ -446,7 +446,7 @@ function ProductDetailScreen({ route, navigation, appData, updateAppData }) {
 function UserListScreen({ navigation, appData }) {
   return (
     <ImageBackground
-      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      source={require("Post novo fundo de story de instagram branco.png")}
       style={styles.backgroundImage}
     >
       <View style={styles.userListContainer}>
@@ -523,7 +523,7 @@ function UserDetailScreen({ route, navigation, appData, updateAppData }) {
 
   return (
     <ImageBackground
-      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      source={require("Post novo fundo de story de instagram branco.png")}
       style={styles.backgroundImage}
     >
       <View style={styles.userDetailContainer}>
@@ -582,7 +582,7 @@ function SettingsScreen({ navigation, appData, updateAppData }) {
 
   return (
     <ImageBackground
-      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      source={require("Post novo fundo de story de instagram branco.png")}
       style={styles.backgroundImage}
     >
       <View style={styles.settingsContainer}>
@@ -685,7 +685,7 @@ function ManageProductsScreen({ navigation, appData, updateAppData }) {
 
   return (
     <ImageBackground
-      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      source={require("Post novo fundo de story de instagram branco.png")}
       style={styles.backgroundImage}
     >
       <View style={styles.manageProductsContainer}>
@@ -756,7 +756,7 @@ function AddProductScreen({ navigation, appData, updateAppData }) {
 
   return (
     <ImageBackground
-      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      source={require("Post novo fundo de story de instagram branco.png")}
       style={styles.backgroundImage}
     >
       <View style={styles.addProductContainer}>
@@ -841,7 +841,7 @@ function EditProductScreen({ route, navigation, appData, updateAppData }) {
 
   return (
     <ImageBackground
-      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      source={require("Post novo fundo de story de instagram branco.png")}
       style={styles.backgroundImage}
     >
       <View style={styles.editProductContainer}>
@@ -930,7 +930,7 @@ function PurchaseHistoryScreen({ navigation, appData }) {
 
   return (
     <ImageBackground
-      source={require("./assets/Post novo fundo de story de instagram branco.png")}
+      source={require("Post novo fundo de story de instagram branco.png")}
       style={styles.backgroundImage}
     >
       <View style={styles.purchaseHistoryContainer}>
