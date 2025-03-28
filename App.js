@@ -217,7 +217,7 @@ function LoginScreen({ navigation, appData, updateAppData }) {
 // -------------------------
 function DashboardScreen({ navigation, appData, updateAppData }) {
   // Estado e variáveis
-  const currentUser = appData && appData.currentUser ? appData.currentUser : {};
+  const currentUser = appData && appData.currentUser 
   const fadeAnim = useRef(new Animated.Value(0)).current;
   const scaleAnim = useRef(new Animated.Value(0.8)).current;
 
