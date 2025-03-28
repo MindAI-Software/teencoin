@@ -216,7 +216,8 @@ function LoginScreen({ navigation, appData, updateAppData }) {
 // DashboardScreen
 // -------------------------
 function DashboardScreen({ navigation, appData, updateAppData }) {
-  const { currentUser } = appData || {};
+ const { currentUser } = appData?.currentUser || {};
+
 
 
 
@@ -383,7 +384,8 @@ function StoreScreen({ navigation, appData }) {
 // -------------------------
 function ProductDetailScreen({ route, navigation, appData, updateAppData }) {
   const { product } = route.params;
- const { currentUser } = appData || {};
+const { currentUser } = appData?.currentUser || {};
+
 
 
 
